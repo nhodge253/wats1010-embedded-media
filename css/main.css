@@ -24,9 +24,11 @@ h1 {
   font-size: 46px;
   font-weight: bold;
   color:#00a1ff;
+  text-align: center;
 }
 p.subtitle{
   font-family: impact;
+  text-align: center;
 }
 nav ul {
   width: auto;
@@ -49,7 +51,41 @@ nav ul li:hover {
 h2 {
   margin:0;
   padding:0;
-  color: #00a1ff;
+  font-family: impact;
+  font-size: 46px;
+  font-weight: bold;
+  color:#00a1ff;
+  text-align: center;
+  background-color: #fbc115;
+}
+h3 {
+  margin:0;
+  padding:0;
+  font-family: impact;
+  font-size: 30px;
+  font-weight: bold;
+  color:#00a1ff;
+  text-align: center;
+}
+#watch div.click {
+  margin-bottom: 10px;
+  padding: 0;
+  color: black;
+  font-family: Tahoma;
+  text-align: center;
+  font-weight: bold;
+}
+#watch a.download-button {
+  margin-bottom: 10px;
+  padding: 0;
+  color: black;
+  font-family: Tahoma;
+  float: center;
+  font-weight: bold;
+}
+  
+section#about h2 {
+  text-align: center;
 }
 #social {
   background: transparent;
@@ -76,24 +112,54 @@ h2 {
     opacity: 0.5;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+#about p.lead {
+  font-weight: bolder;
+  text-align:center;
+  font-size: 34px;
+  width: 35%;
+  color: white;
+}
+#about p.produced {
+  text-align: left;
+  font-size: 15px;
+  font-family: Tahoma;
+}
 /*Used border-radius to add a round border to the images*/
 img.headshot {
-  border-radius: 50%;
-}
-img.headshot {
+    border-radius: 40%;
     width: 20%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 ul.weybec-people {
-  list-style-type: none;
-  margin: 0;
-  font-family: Franklin Gothic Medium;
+    list-style-type: none;
+    margin: 0;
+    font-family: Franklin Gothic Medium;
+    display: inline;
 }
 h3 {
   font-family: Tahoma;
 }
-p div.click {
-  font-size: small;
-  color: red;
+
+#about {
+  background-image:url('../img/monkey_flight.jpg');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  margin:0;
+  padding:0;
+}
+#about p {
+  margin-bottom: 10px;
+  padding: 0;
+  color: black;
+  font-family: Tahoma;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  font-family: Tahoma;
+  margin 10px;
+  background: rgba(165,167,167,1);
+  font-size: 12px;
+  text-align: center;
 }
